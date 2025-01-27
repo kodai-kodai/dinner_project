@@ -1,0 +1,14 @@
+@startuml 全体図
+title 全体図
+
+start
+:銀行でお金をおろす;
+:スーパーで食材を買う;
+fork
+:カレーを作る;
+fork again
+:ほうれんそうのお浸しを作る;
+fork again
+:コンソメスープを作る;
+fork end
+:作り終わった後食べる;
